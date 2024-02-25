@@ -8,6 +8,8 @@
   <body>
     <div style="padding-top: 30px;">
       <h1 style="text-align: center;color: dodgerblue;">Embrowse</h1>
+      <input type="text" id="text" placeholder="Search via URL...">
+      <input type="button" id="btn" value="Search" onClick="window.open('https://' + document.getElementById('text').value);">
     </div>
   </body>
 </html>
