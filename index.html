@@ -9,8 +9,11 @@
     <div style="padding-top: 30px;">
       <h1 style="text-align: center;color: dodgerblue;">Embrowse</h1>
       <div style="text-align: center;">
-        <input type="text" id="text" placeholder="Search ONLY via URL, more options coming soon...">
-        <input type="button" id="btn" value="Search" onClick="location.replace('https://' + document.getElementById('text').value);">
+        <hr>
+        <input type="text" id="url" placeholder="Search ONLY via URL">
+        <input type="button" id="btn" value="Search URL" onClick="location.replace('https://' + document.getElementById('url').value);">
+        <input type="text" id="user" placeholder="Search your User here">
+        <input type="button" id="btn" value="Search User" onClick="location.replace('https://persona-os.github.io/users' + document.getElementById('user').value);">
       </div>
     </div>
   </body>
